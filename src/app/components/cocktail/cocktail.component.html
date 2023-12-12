@@ -1,0 +1,343 @@
+<app-header></app-header>
+<div class="centered-image fixed-content" style="margin-bottom: 10%;">
+  <div class="container">
+    <!-- Contenido de tu componente -->
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <!-- Contenido de la primera columna -->
+        <h1>Drink of the
+          moment</h1>
+        <p>Gin, also known as gin, is one of the most popular and appreciated
+          alcoholic beverages worldwide, especially for its versatility in
+          cocktails. Originally from Europe, this spirit has evolved over the
+          centuries and comes in a wide range of styles and flavors.</p>
+          <h1>4.9</h1>
+          <div class="mt-4">
+            <button type="button" class="btn  rounded-pill">
+              Try now
+              <img src="assets/img/Vector 1.png" class="mr-2">
+            </button>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <!-- Contenido de la segunda columna -->
+        <div class="rounded-image-container"
+          style="width: 300px; height: 300px;">
+          <img src="assets/img/botellagin.png" alt>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <!-- Contenido de la tercera columna -->
+        <div class="column-grid">
+          <div class="circle-img-title">
+            <img src="assets/img/water-solid 1.png" alt="Descripción de la imagen">
+          </div>
+          <div>
+            <h6>Versatility</h6>
+            <p>The range of flavors in gin is
+              exceptionally wide, thanks to the
+              variety of botanicals that can be
+              used in its production..</p>
+          </div>
+
+        </div>
+
+        <div class="column-grid">
+          <div class="circle-img-title">
+            <img src="assets/img/cocktail-solid 1.png" alt="Descripción de la imagen">
+          </div>
+          <div>
+            <h6>Distiontiv Flavor</h6>
+            <p>Bittersweet and slightly
+              woody flavor is the
+              signature of any gin.</p>
+          </div>
+
+        </div>
+        <div class="column-grid">
+          <div class="circle-img-title">
+            <img src="assets/img/Vector.png" alt="Descripción de la imagen">
+          </div>
+          <div>
+            <h6>Purity</h6>
+            <p>This gives it a clean, pure feel,
+              without the caramel or vanilla notes
+              that come from barrel aging.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--begin popular drinks-->
+
+
+<div>
+  <div class="popular-drinks"  style="margin-bottom: 10% !important;" >
+    <strong>Popular Drinks</strong>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4 class-center" (click)="go()">
+
+          <img src="assets/img/mojito.png" alt="Mojito" class="img-fluid" style=" border: 4px solid #dfbdd8;">
+          <h5 class="mt-2">Mojito</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" (click)="go()">
+          <img  style=" border: 4px solid #c5dda2;
+           " src="assets/img/Old Fashioned.png" alt="Old Fashioned" class="img-fluid">
+          <h5 class="mt-2">Old Fashioned</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" (click)="go()">
+          <img  style=" border: 4px solid #dcb4a2;" src="assets/img/Long Island Tea.png" alt="Long Island Tea" class="img-fluid">
+          <h5 class="mt-2">Long Island Tea</h5>
+          <p>Add to my list +</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4" (click)="go()">
+          <img style=" border: 4px solid #dfbdd8;"  src="assets/img/Negroni.png" alt="Negroni" class="img-fluid">
+          <h5 class="mt-2">Negroni</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" (click)="go()">
+          <img style=" border: 4px solid #96a986;" src="assets/img/Whiskey Sour.png" alt="Whiskey Sour" class="img-fluid">
+          <h5 class="mt-2">Whiskey Sour</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4"(click)="go()">
+          <img style=" border: 4px solid #dbb5a3;" src="assets/img/Dry Martini.png" alt="Dry Martini" class="img-fluid">
+          <h5 class="mt-2">Dry Martini</h5>
+          <p>Add to my list +</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4"(click)="go()">
+          <img style=" border: 4px solid #dfbcd8;" src="assets/img/Daiquiri.png" alt="Daiquiri" class="img-fluid">
+          <h5 class="mt-2">Daiquiri</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4"(click)="go()">
+          <img style=" border: 4px solid #dcb4a2;" src="assets/img/Margarita.png" alt="Margarita" class="img-fluid">
+          <h5 class="mt-2">Margarita</h5>
+          <p>Add to my list +</p>
+        </div>
+      </div>
+    </div>
+</div>
+<!--end popular drinks-->
+
+
+
+<!--begin Popular ingredients-->
+
+
+
+  <div>
+    <div class="popular-ingredients"  style="margin-bottom: 10% !important; " >
+      <strong>Popular  Ingredients</strong>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 class-center " (click)="go()">
+
+            <img src="assets/img/Vodka.png" alt="Mojito" class="img-fluid" style=" border: 4px solid #dfbdd8; background-color:#dfbdd8 ;">
+            <h5 class="mt-2">Mojito</h5>
+            <p>Add to my list +</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4" (click)="go()">
+            <img  style=" border: 4px solid #c5dda2; background-color: #c5dda2;
+             " src="assets/img/Gin.png" alt="Old Fashioned" class="img-fluid">
+            <h5 class="mt-2">Gin</h5>
+            <p>Add to my list +</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4"(click)="go()">
+            <img  style=" border: 4px solid #dcb4a2;background-color: #dcb4a2;" src="assets/img/Rum.png" alt="Long Island Tea" class="img-fluid">
+            <h5 class="mt-2">Rum</h5>
+            <p>Add to my list +</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4"(click)="go()">
+            <img style=" border: 4px solid #dfbdd8;background-color:#dfbdd8 ;"  src="assets/img/Tequila.png" alt="Negroni" class="img-fluid">
+            <h5 class="mt-2">Tequila</h5>
+            <p>Add to my list +</p>
+          </div>
+
+
+        </div>
+
+      </div>
+  </div>
+<!--end Popular ingredients-->
+
+
+
+
+<!--Latest popular drinks-->
+
+
+<div>
+  <div class="popular-drinks"  style="margin-bottom: 10% !important;" >
+    <strong>Latest Drinks</strong>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4 class-center" (click)="go()">
+
+          <img src="assets/img/Cocktail Horses Neck.png" alt="Mojito" class="img-fluid" style=" border: 4px solid #dfbdd8;">
+          <h5 class="mt-2">Cocktail Horse’s Neck</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" (click)="go()">
+          <img  style=" border: 4px solid #c5dda2;
+           " src="assets/img/Planters Punch.png" alt="Old Fashioned" class="img-fluid">
+          <h5 class="mt-2">Planter’s Punch</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" (click)="go()">
+          <img  style=" border: 4px solid #dcb4a2;" src="assets/img/Ramos Gin Fizz.png" alt="Long Island Tea" class="img-fluid">
+          <h5 class="mt-2">Ramos Gin Fizz</h5>
+          <p>Add to my list +</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4" (click)="go()">
+          <img style=" border: 4px solid #dfbdd8;"  src="assets/img/Gin Lemon.png" alt="Negroni" class="img-fluid">
+          <h5 class="mt-2">Gin Lemon</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" (click)="go()">
+          <img style=" border: 4px solid #96a986;" src="assets/img/Gin Tonic.png" alt="Whiskey Sour" class="img-fluid">
+          <h5 class="mt-2">Gin Tonic</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" (click)="go()">
+          <img style=" border: 4px solid #dbb5a3;" src="assets/img/Vodka Tonic.png" alt="Dry Martini" class="img-fluid">
+          <h5 class="mt-2">Vodka Tonic</h5>
+          <p>Add to my list +</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4" (click)="go()">
+          <img style=" border: 4px solid #dfbcd8;" src="assets/img/Vodka Lemon.png" alt="Daiquiri" class="img-fluid">
+          <h5 class="mt-2">Vodka Lemon</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" (click)="go()">
+          <img style=" border: 4px solid #dcb4a2;" src="assets/img/Vodka Slime.png" alt="Margarita" class="img-fluid">
+          <h5 class="mt-2">Vodka Slime</h5>
+          <p>Add to my list +</p>
+        </div>
+      </div>
+    </div>
+</div>
+<!--end LASTES drinks-->
+
+
+
+<!--begin RANDOM ingredients-->
+
+
+
+<div>
+  <div class="popular-ingredients"  style="margin-bottom: 10% !important; " >
+    <strong>Random  Ingredients</strong>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4 class-center">
+
+          <img src="assets/img/Limeade.png" alt="Mojito" class="img-fluid" style=" border: 4px solid #dfbdd8; background-color:#dfbdd8 ;">
+          <h5 class="mt-2">Limeade</h5>
+          <p>Recipes with vodka ></p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img  style=" border: 4px solid #c5dda2; background-color: #c5dda2;
+           " src="assets/img/Chocolate Syrup.png" alt="Old Fashioned" class="img-fluid">
+          <h5 class="mt-2">Chocolate Syrup</h5>
+          <p>Recipes with vodka ></p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img  style=" border: 4px solid #dcb4a2;background-color: #dcb4a2;" src="assets/img/Melon Liqueur.png" alt="Long Island Tea" class="img-fluid">
+          <h5 class="mt-2">Melon Liqueur</h5>
+          <p>Recipes with vodka ></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img style=" border: 4px solid #dfbdd8;background-color:#dfbdd8 ;"  src="assets/img/Kiwi Liqueur.png" alt="Negroni" class="img-fluid">
+          <h5 class="mt-2">Kiwi Liqueur</h5>
+          <p>Recipes with vodka ></p>
+        </div>
+
+
+      </div>
+
+    </div>
+</div>
+<!--end RAMDOM ingredients-->
+
+<!--Random Drinks popular drinks-->
+
+
+<div>
+  <div class="popular-drinks"  style="margin-bottom: 10% !important;" >
+    <strong>Random Drinks</strong>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4 class-center" (click)="go()">
+
+          <img src="assets/img/Pure Passion.png" alt="Mojito" class="img-fluid" style=" border: 4px solid #dfbdd8;">
+          <h5 class="mt-2">Pure Passion</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img  style=" border: 4px solid #c5dda2;
+           " src="assets/img/Egg Nog.png" alt="Old Fashioned" class="img-fluid">
+          <h5 class="mt-2">Egg Nog</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img  style=" border: 4px solid #dcb4a2;" src="assets/img/Kiwi Papaya Smoothie.png" alt="Long Island Tea" class="img-fluid">
+          <h5 class="mt-2">Kiwi Papaya Smoothie</h5>
+          <p>Add to my list +</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img style=" border: 4px solid #dfbdd8;"  src="assets/img/Wine Punch.png" alt="Negroni" class="img-fluid">
+          <h5 class="mt-2">Wine Punch</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img style=" border: 4px solid #96a986;" src="assets/img/Arise My Love.png" alt="Whiskey Sour" class="img-fluid">
+          <h5 class="mt-2">Arise My Love</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img style=" border: 4px solid #dbb5a3;" src="assets/img/Screwdriver.png" alt="Dry Martini" class="img-fluid">
+          <h5 class="mt-2">Screwdriver</h5>
+          <p>Add to my list +</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img style=" border: 4px solid #dfbcd8;" src="assets/img/After Five.png" alt="Daiquiri" class="img-fluid">
+          <h5 class="mt-2">After Five</h5>
+          <p>Add to my list +</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img style=" border: 4px solid #dcb4a2;" src="assets/img/151 Florida Bushwacker.png" alt="Margarita" class="img-fluid">
+          <h5 class="mt-2">151 Florida Bushwacker</h5>
+          <p>Add to my list +</p>
+        </div>
+      </div>
+    </div>
+</div>
+<!--end ramdon drinks-->
+
+<app-footer></app-footer>

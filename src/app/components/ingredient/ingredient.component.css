@@ -1,0 +1,71 @@
+.title{
+  text-align: center;
+  margin-bottom: 5%;
+}
+h3,h2{
+  color:  #574646;
+}
+h2{
+  text-align: center !important;
+  margin-bottom: 6%;
+}
+.img-main{
+  border: 8px solid #a1dbc3;
+  border-radius: 50%; width: 90%;
+}
+
+
+
+/* begin popular ingredients**/
+.popular-ingredients {
+  text-align: center;
+
+background-color: #574747;
+width: 75%;
+border-radius: 2.5em;
+margin: auto !important;
+
+
+
+}
+.popular-ingredients img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+
+}
+
+.img{
+
+  width: 50%;
+border-radius: 50%;
+}
+.setting{
+text-align: center;
+}
+
+.division{
+  display: grid;grid-template-columns: 30% 70%;
+}
+.instruction{
+  background-color: #a1dbc3;
+  width: 80%;
+  border-radius: 2.5em;
+  padding: 50px;
+  display: grid;grid-template-columns: 80% 20%;
+  margin-bottom: 10%;
+}
+
+@media (max-width: 768px) {
+
+  .division{
+    display: grid;grid-template-columns: 1fr;
+  }
+  .instruction{
+
+     grid-template-columns:1fr;
+  }
+
+
+}

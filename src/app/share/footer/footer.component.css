@@ -1,0 +1,25 @@
+.custom-footer {
+  background-color: #475852;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.footer-titles {
+  margin-bottom: 10px;
+}
+
+.footer-titles-right {
+  text-align: right;
+}
+a{
+  text-decoration: none;
+  padding: 2%;
+}
+
+.rectangle {
+  width: 70%;
+  height: 7px;
+  background-color: #475852;
+  margin: auto;
+  margin-bottom: 5%;
+}
